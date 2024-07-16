@@ -5,7 +5,7 @@
 # esme hm to argument pass krte h
 
 #============= Max Number ==============
-from functools import reduce
+# from functools import reduce
 # my_list=[10,20,30,50,40,60,80]
 # def high_digit(x,y):
 #     if x>y:
@@ -38,4 +38,14 @@ from functools import reduce
 n=int(input("enter no."))
 x=lambda n: True if n%2==0 else False
 print(x(n))
+
+# ================================================
+# from functools import reduce
+# my_list=[20,30,40,50,60]
+# def small(x,y):
+#     if x<y:
+#         return x
+#     else:
+#         return y
+# print(reduce(small,my_list))
 

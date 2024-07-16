@@ -15,3 +15,4 @@ def vovel(n):
     if n not in my_vovel:
         return True
 print(list(filter(vovel,my_str)))
+
