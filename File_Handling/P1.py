@@ -33,9 +33,16 @@
 # print(f.closed)
 # ===================================================
 
-f=open('n6.txt','w')
-f.write("Hello I am Rahul Lokhade\nI am Fullstack Developer\n")
-data=('This is C++ Timing 10:30 to 11:30')
+# f=open('n6.txt','w')
+# f.write("Hello I am Rahul Lokhade\nI am Fullstack Developer\n")
+# data=('This is C++ Timing 10:30 to 11:30')
+# f.writelines(data)
+# f.close()
+# ===================================================
+
+f=open('even-odd.txt','w')
+# f.write("Hello I am Rahul Lokhade\nI am Fullstack Developer\n")
+data=('x=10 \n if x%2==0: \n print("Even No.")')
 f.writelines(data)
 f.close()
 
