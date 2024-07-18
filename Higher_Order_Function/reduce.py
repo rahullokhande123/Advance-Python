@@ -35,9 +35,9 @@
 
 # ============= Lambda Function ==============
 
-n=int(input("enter no."))
-x=lambda n: True if n%2==0 else False
-print(x(n))
+# n=int(input("enter no."))
+# x=lambda n: True if n%2==0 else False
+# print(x(n))
 
 # ================================================
 # from functools import reduce
@@ -48,4 +48,7 @@ print(x(n))
 #     else:
 #         return y
 # print(reduce(small,my_list))
+
+
+
 
