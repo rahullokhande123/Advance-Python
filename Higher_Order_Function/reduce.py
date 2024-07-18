@@ -40,14 +40,14 @@
 # print(x(n))
 
 # ================================================
-# from functools import reduce
-# my_list=[20,30,40,50,60]
-# def small(x,y):
-#     if x<y:
-#         return x
-#     else:
-#         return y
-# print(reduce(small,my_list))
+from functools import reduce
+my_list=[20,30,40,50,60]
+def small(x,y):
+    if x<y:
+        return x
+    else:
+        return y
+print(reduce(small,my_list))
 
 
 
