@@ -40,9 +40,17 @@
 # f.close()
 # ===================================================
 
-f=open('even-odd.txt','w')
-# f.write("Hello I am Rahul Lokhade\nI am Fullstack Developer\n")
-data=('x=10 \n if x%2==0: \n print("Even No.")')
-f.writelines(data)
-f.close()
+# f=open('even-odd.txt','w')
+# # f.write("Hello I am Rahul Lokhade\nI am Fullstack Developer\n")
+# data=('x=10 \n if x%2==0: \n print("Even No.")')
+# f.writelines(data)
+# f.close()
+
+# =================================================
+
+f=open('n6.txt','rb')
+print(f.tell())
+print(f.read(6))
+print(f.tell())
+# print(f.read(5))
 
