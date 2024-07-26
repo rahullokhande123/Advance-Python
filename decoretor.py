@@ -17,7 +17,6 @@ def outer_fun(fun):
     def inner_fun(x,y):
         x=x+10
         y=y+10
-        print("main function call")
         return fun(x,y)
     return inner_fun
 @outer_fun
