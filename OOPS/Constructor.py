@@ -41,3 +41,19 @@ print(id(obj))
 obj.display()
 obj2=Student()
 print(id(obj2))
+
+# ============ Multipale Constructor =================
+
+class Student:
+    x=10;
+    y=20;
+    def __init__(self,x):
+        print("This is Construnctor")
+        print(id(self))
+    def __init__(self,x,y):
+        print("This is Construnctor")
+        print(id(self))
+    def __init__(self,x,y,z):
+        print("This is Construnctor")
+        print(id(self))
+obj=Student(10,20,30)
