@@ -38,4 +38,19 @@ obj.n1="Rahul"
 obj.n2=24
 obj.display()
 
+# 3) =========== Instance V. Declaration through Instance Method ===========
+#============ Instance Method Me Instance Variable Ko Decliare Krna ==========
+
+class Student:
+    
+    def display(self,name,age):
+         self.n1=name
+         self.n2=age
+    def show(self):
+         print("Name =",self.n1)
+         print("Age =",self.n2)
+obj=Student()
+obj.display("Neeraj",37)
+obj.show()
+print(obj.n1,obj.n2)
 
