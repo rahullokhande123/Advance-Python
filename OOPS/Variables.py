@@ -27,5 +27,15 @@ obj.display()
 print(obj.n1)
 print(obj.n2)
 
+# 2) ================ Instance V. Declaration through Object ==============
+class Student:
+    
+    def display(self):
+        print("Name =",self.n1)
+        print("Age =",self.n2)
+obj=Student()
+obj.n1="Rahul"
+obj.n2=24
+obj.display()
 
 
