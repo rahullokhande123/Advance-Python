@@ -54,3 +54,7 @@ obj.display("Neeraj",37)
 obj.show()
 print(obj.n1,obj.n2)
 
+# 4) =========== Accesess Instance Variable ===========
+              # a )==== Within The Class(through self) ====
+          # b )==== Out Side of the class(through obj) ====
+
