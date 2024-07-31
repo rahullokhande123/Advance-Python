@@ -58,3 +58,27 @@ print(obj.n1,obj.n2)
               # a )==== Within The Class(through self) ====
           # b )==== Out Side of the class(through obj) ====
 
+
+
+# ====================== Static/Class Variable =====================
+
+class Student:
+    school='LBHSS'     # Static Decleared Outside Of Method
+    def __init__(self,name,roll):
+        self.name=name
+        self.roll=roll           # Static Decleared Inside Of Construct
+        Student.center_code=101
+    def display(self):
+        Student.gread='10th'     # Static Decleared Inside Of Method
+        print("Name",self.name)
+        print("Roll",self.roll)
+        print("School",Student.school)
+        print("Center",Student.center_code)
+        print("Gread",Student.gread)
+obj=Student('Rahul',1222)
+obj.display()
+print("School",Student.school)     # Baher Es Tarah Se Access Kr Sakte H
+
+
+
+
