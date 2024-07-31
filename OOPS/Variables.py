@@ -11,7 +11,7 @@ obj.display()
 obj1=Student("Arun",24)
 obj1.display()
 
-# ============= Instance V. Declaration Out Side The Class =================
+# ============= Instance V. Declaration-Access Out Side The Class =================
 
 class Student:
     def __init__(self,name,age):
