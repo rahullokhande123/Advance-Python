@@ -2,10 +2,13 @@
 class Student:
     x=10;
     y=20;
-    def display():
+    def display(self,x,y):
         print("This is Display")
-obj=Student
-obj.display()
+        print(x)
+        print(y)
+        print(obj.y)
+obj=Student()
+obj.display(30,40)
 print(obj.x)
 
 
