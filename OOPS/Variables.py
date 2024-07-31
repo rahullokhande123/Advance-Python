@@ -80,5 +80,25 @@ obj.display()
 print("School",Student.school)     # Baher Es Tarah Se Access Kr Sakte H
 
 
+# ==== Static Class Ko Outside Of Class Decleare Krna Or Access Krna =====
 
+class Student:
+    school='LBHSS'
+    def __init__(self,name,roll):
+        self.name=name
+        self.roll=roll
+        Student.center_code=101
+    def display(self):
+        Student.gread='10th'
+        print("Name",self.name)
+        print("Roll",self.roll)
+        print("School",Student.school)
+        print("Center",Student.center_code)
+        print("Gread",Student.gread)
+        print("City",Student.city)
+obj=Student('Rahul',1222)
+
+print("School",Student.school)
+Student.city="Bhopal"
+obj.display()
 
