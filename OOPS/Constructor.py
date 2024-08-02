@@ -12,7 +12,7 @@ obj.display(30,40)
 print(obj.x)
 
 
-# ======= Constructor =============
+# ======================= Constructor =============
 
 class Student:
     x=10;
@@ -27,7 +27,7 @@ obj=Student()
 print(obj.x)
 obj.display()    # () lagana must be recurged
 
-# ============= Self And Current Class Objects Same Address ===============
+# =================== Self And Current Class Objects Same Address ===============
 class Student:
     x=10;
     y=20;
@@ -45,7 +45,7 @@ obj.display()
 obj2=Student()
 print(id(obj2))
 
-# ============ Multipale Constructor =================
+# ======================== Multipale Constructor =================
 
 class Student:
     x=10;
@@ -60,3 +60,6 @@ class Student:
         print("This is Construnctor")
         print(id(self))
 obj=Student(10,20,30)
+
+# We can create multipale Constructor But we can'nt call all.
+# By default Evary Time Call Last Constructor In Multiple.
