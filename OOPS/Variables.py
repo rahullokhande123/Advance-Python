@@ -114,4 +114,4 @@ class Student:
 obj=Student();
 obj.display("Rahul",24)
 # print(x)    
-           # Local Variable Ko Hm Scope Ke Baher Accese Nhi Kr Sakte 
+           # Local Variable Ko Hm Scope Ke Baher Access Nhi Kr Sakte
