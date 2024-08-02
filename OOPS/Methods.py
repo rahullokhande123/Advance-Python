@@ -46,5 +46,5 @@ class Student:
         print("Thanks Lot")
 obj=Student()
 obj.display()
-obj.show()   # Yeisi Bani Method Jiska Class Methods Or Variable Se Koi Mtlb Nhi Ho
-          #Esme Hm Class Methods Ya Variables 
+obj.show()   # Yeisi Method Jiska Class Methods Or Variable Se Koi Mtlb Nhi Ho
+          #Esme Hm Class Methods Ya Variables Ko Access Nhi Kr Sakte H
