@@ -34,3 +34,17 @@ obj=Book()
 obj.datails("Neeraj","BHopal")
 obj.update_price(2000)
 obj.datails("Rahul","Bhopal")
+
+# ======================= Static Method =======================
+
+class Student:
+    city="Bhopal"
+    def display(self):
+        print("Hello")
+    @staticmethod
+    def show():
+        print("Thanks Lot")
+obj=Student()
+obj.display()
+obj.show()   # Yeisi Bani Method Jiska Class Methods Or Variable Se Koi Mtlb Nhi Ho
+          #Esme Hm Class Methods Ya Variables 
