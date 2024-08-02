@@ -102,3 +102,16 @@ print("School",Student.school)
 Student.city="Bhopal"
 obj.display()
 
+
+# ===================== Local Variables ======================
+
+class Student:
+    def display(self,name,age):
+        x=10
+        print("Name =",name)
+        print("Age =",age)
+        print("Value Of X=",x)
+obj=Student();
+obj.display("Rahul",24)
+# print(x)    
+           # Local Variable Ko Hm Scope Ke Baher Accese Nhi Kr Sakte 
