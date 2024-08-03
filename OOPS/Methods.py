@@ -1,4 +1,4 @@
-# ================ Instainse Method =====================
+# ======================= Instainse Method =====================
 
 class Student:
     city="Bhopal"
@@ -16,10 +16,11 @@ obj=Student("Rahul",101)
 obj.show()
 obj.display()
 
+# self ko bhi hm medify kr sakte h pr krte nhi kyo ki python ne self hi refer kiya h
 # Instance Methode Ko Bhi jab kisi method me call krte hai to self ki helf se hi hota h
 # Or Method Ko Class Ke Baher Call krne ke liye obj.ka use krke 
 
-# ================ Class Method =====================
+# ======================== Class Method ==========================
 
 class Book:
     price=1000
@@ -32,12 +33,13 @@ class Book:
         cls.price=updated_price
 obj=Book()
 obj.datails("Neeraj","BHopal")
-obj.update_price(2000)
+obj.update_price(2000) 
 obj.datails("Rahul","Bhopal")
 
 # Class Method Ka Use Hm Class Variable Ko Modifiy/ Update Krne Ke Liye Krte H
+# cls ko modify bhi kr sakte h pr krte nhi h kyoki python ne cls hi refer kiya h
 
-# ======================= Static Method =======================
+# ============================= Static Method ===============================
 
 class Student:
     city="Bhopal"
