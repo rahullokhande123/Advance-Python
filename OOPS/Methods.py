@@ -35,6 +35,8 @@ obj.datails("Neeraj","BHopal")
 obj.update_price(2000)
 obj.datails("Rahul","Bhopal")
 
+# Class Method Ka Use Hm Class Variable Ko Modifiy/ Update Krne Ke Liye Krte H
+
 # ======================= Static Method =======================
 
 class Student:
