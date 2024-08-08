@@ -34,3 +34,18 @@ class P1:
         print(P1.__name)
 obj=P1()
 obj.display()
+
+
+
+# =========================== Method Overloding ==========================
+
+class P1:
+    def add(*n):
+        sum=0
+        for i in n:
+            sum=sum+i
+        return sum
+obj=P1
+result=obj.add(10,20)
+print(result)
+obj.add(10,20,30,40,50,60)
