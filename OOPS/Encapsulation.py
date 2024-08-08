@@ -25,3 +25,12 @@ print(obj._name)
 # obj=P2()
 # obj.show()
 # print(obj._name)
+
+# ===============================
+
+class P1:
+    __name="Rahul"
+    def display(self):
+        print(P1.__name)
+obj=P1()
+obj.display()
