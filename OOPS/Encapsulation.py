@@ -70,3 +70,16 @@ class Child(Parent):
 
 obj=Child()
 obj.display()
+
+# =============================================
+class A:
+    def display(self):
+        print("Display A Class")
+class B(A):
+    def display(self):
+        print("Display B Class")
+    def show(self):
+        super().display()
+obj=B()
+obj.display()
+obj.show()
