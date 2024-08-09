@@ -50,6 +50,17 @@ result=obj.add(10,20)
 print(result)
 obj.add(10,20,30,40,50,60)
 
+# ================= Second Example ===============
+
+class A:
+    def add(x=0,y=0):
+        return x+y
+    def add(x=0,y=0,z=0):
+        return x+y+z
+obj=A                            # 
+x=obj.add(4,5)
+print(x)
+
 # =========================== Method Overriding ==========================
 # ================= Super() =================
 
@@ -71,7 +82,7 @@ class Child(Parent):
 obj=Child()
 obj.display()
 
-# =============================================
+# =============== Example 2 ====================
 class A:
     def display(self):
         print("Display A Class")
