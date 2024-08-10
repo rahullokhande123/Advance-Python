@@ -5,33 +5,33 @@
 # esme hm to argument pass krte h
 
 #============= Max Number ==============
-# from functools import reduce
-# my_list=[10,20,30,50,40,60,80]
-# def high_digit(x,y):
-#     if x>y:
-#         return x
-#     else:
-#         return y
-# print(reduce(high_digit,my_list))
+from functools import reduce
+my_list=[10,20,30,50,40,60,80]
+def high_digit(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+print(reduce(high_digit,my_list))
 
 # #============= Min Number ===============
-
-# my_list=[10,20,30,50,40,60,80]
-# def high_digit(x,y):
-#     if x<y:
-#         return x
-#     else:
-#         return y
-# print(reduce(high_digit,my_list))
+from functools import reduce
+my_list=[10,20,30,50,40,60,80]
+def low_digit(x,y):
+    if x<y:
+        return x
+    else:
+        return y
+print(reduce(low_digit,my_list))
 
 # # ============= Sum Of All Numbres ==========
 
-# from functools import reduce
-# my_list=[10,20,30,50,40,60,80]
-# def high_digit(x,y):
-#         return x+y
+from functools import reduce
+my_list=[10,20,30,50,40,60,80]
+def high_digit(x,y):
+        return x+y
    
-# print(reduce(high_digit,my_list))
+print(reduce(high_digit,my_list))
 
 # ============= Lambda Function ==============
 
