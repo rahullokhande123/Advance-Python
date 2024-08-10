@@ -1,14 +1,28 @@
-# HIGHER ORDER FUNCTION:-
+#HIGHER ORDER FUNCTION:-
 
-# FIND POWER OF ANY COLLECTION
+#FIND POWER OF ANY COLLECTION
 my_list=[1,2,3,4,5]
 def squar(n):
     return n**2
-new_list=tuple(map(squar,my_list))
-print(new_list)
+new_list=map(squar,my_list)
+print(list(new_list))
+#=========Multiple===========
+my_list=(1,2,3,4,5,6,7,8,9,10)
+def cal(n):
+    return n*2
+new_list=map(cal,my_list)
+print(list(new_list))
+
+#==========  ===========
+
+my_add=(1,2,3,4,5,6,7,8,9,10)
+def add(n):
+    return n+10-n+2
+add_store=map(add,my_add)
+print(list(add_store))
 
 
-# ============================================
+#============================================
 
 # Addition of two list on the bases of indexing.
 my_list1=[1,2,3,4,5]
