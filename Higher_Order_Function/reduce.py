@@ -33,12 +33,6 @@ def high_digit(x,y):
    
 print(reduce(high_digit,my_list))
 
-# ============= Lambda Function ==============
-
-# n=int(input("enter no."))
-# x=lambda n: True if n%2==0 else False
-# print(x(n))
-
 # ================================================
 from functools import reduce
 my_list=[20,30,40,50,60]
